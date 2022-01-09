@@ -1,0 +1,165 @@
+.navbar {
+     
+    grid-column: 1/25;
+    grid-row:1/1;
+    border-radius: 5%;
+    padding: auto;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+
+}
+
+.navbar > a {
+    float: left;
+    color:rgb(253, 252, 252) ;
+    text-align:center;
+    padding: 1.7% 3%;
+   text-transform: uppercase;
+    text-decoration:wavy;
+    font-size: 100%;
+   background-color: rgb(29, 29, 29);
+    border:10px;
+    
+  }
+  
+  
+  .navbar > a:hover{
+      color: white;
+      background-color:rgba(185, 76, 76, 0.884);
+      font-size: 120%;
+      text-decoration: underline;
+     
+  }
+  
+  
+  
+  .navbar #compo {
+    background-color:rgba(212, 119, 119, 0.884);
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+    font-size: 130%;
+    }
+  .imp{
+     text-decoration: underline;
+     color: rgb(92, 3, 58);
+  }
+  
+  
+
+  
+  
+  
+
+    .headerB 
+    {text-align: center;
+    color: rgb(248, 247, 247);
+    font-family: 'TheBlacklist';
+    font-size: 350%;
+    grid-row: 2/2;
+    grid-column: 1/7;
+    background-color: rgb(99, 197, 221) ;
+    padding: 5%;
+   
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: repeat(24,1fr);
+        grid-template-rows: repeat(11,1fr);
+         background-attachment: fixed;
+        
+          background-attachment:fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size:cover;
+    }
+
+    .search{
+        grid-column: 6/7;
+        grid-row: 1/1;
+        float:right ;
+        padding-left: 39%;
+        background-color: rgb(29, 29, 29);
+      }
+    
+     
+    
+      #aa-input{
+     
+        font-size: 120%;
+        border-radius: 1%;
+        
+        background-color: #f5f5f5;
+      
+       
+      }
+    
+      body .footer{
+           
+        background: rgba(127, 216, 238, 0.795);
+        font-size: small;
+    
+        color: rgb(10, 1, 1);
+    
+        grid-row: 24/25;
+        grid-column: 1/25;
+      
+        text-align: center;
+    }
+
+      .article  {
+        background-color: rgb(245, 223, 223);
+        color:  rgb(0, 0, 0);
+        font-size:x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        grid-row: 3/12;
+        grid-column: 1/25;
+        padding: 5%;
+        
+      }
+     
+
+
+    body #compVid 
+    {
+        grid-row:12/22 ;
+        grid-column: 1/25;
+        padding-left: 13%;
+        background-color: rgb(252, 248, 248);
+
+    }
+
+
+
+    @font-face {
+        font-family: 'TheBlacklist';
+        src: url('./TheBlacklist/TheBlacklist.eot');
+        src: local('TheBlacklist'), url('./TheBlacklist/TheBlacklist.woff') format('woff'), url('./TheBlacklist/TheBlacklist.ttf') format('truetype');
+      }
+
+      #signup 
+  {
+    color: white;
+    padding-left: 25%;
+  }
+
+  #login 
+  {
+      color: white;
+      padding-left: 10%;
+  }
+
+  #signup:hover
+  {
+      color: aqua;
+    text-decoration:double ;
+   
+  }
+
+  #login:hover
+  {
+    color: aqua;
+    text-decoration:double ;
+   
+  }
